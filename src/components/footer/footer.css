@@ -1,0 +1,70 @@
+.footer-container {
+    background-color: #0a0a0a;
+    color: #aaaaaa;
+    padding: 60px 6% 30px;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
+}
+
+.header-text h2 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    letter-spacing: 10px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+.header-text .mini-description {
+    color: #c62828;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.contact h3, .work-hour h3 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.contact p, .work-hour p {
+    color: #bbbbbb;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+
+.contact .number {
+    color: #c62828;
+    font-weight: 400;
+}
+
+.rights {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #222222;
+    font-size: 0.75rem;
+    color: #666666;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .rights {
+        margin-top: 20px;
+    }
+}
